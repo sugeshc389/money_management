@@ -24,16 +24,16 @@ class _ScreenAddTransactionState extends State<ScreenAddTransaction> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              TextField(
+              const TextField(
                 // purpose
-                decoration: const InputDecoration(
+                decoration: InputDecoration(
                   hintText: 'Purpose',
                 ),
               ),
-              TextField(
+              const TextField(
                 // amount
                 keyboardType: TextInputType.number,
-                decoration: const InputDecoration(
+                decoration: InputDecoration(
                   hintText: 'Amount',
                 ),
               ),
